@@ -1,0 +1,33 @@
+<div>
+  <div >
+  <form [formGroup]="deviceForm" >
+    <div id="searchDevice" class="input-group input-group-search" style="width: 60%;display: inline-flex;">
+      <input id="searchDeviceText"
+        type="search"
+        class="form-control"
+        placeholder="Search Device/Asset"
+        formControlName="device"
+        container="mat-dialog-container"
+        [(ngModel)]="model"
+        [typeahead]="suggestions$"  (typeaheadLoading)="changeTypeaheadLoading($event)"
+        [typeaheadAsync]="true" typeaheadWaitMs="500" typeaheadOptionField="name" (typeaheadOnSelect)="deviceSelected($event.item)"
+        [isAnimated]="true" autocomplete="off" [typeaheadOptionsLimit]="5"  [typeaheadMinLength]="3"
+      />
+        <span class="input-group-addon" style="margin-right: 20px;;">
+          <i c8yIcon="search" *ngIf="!value || value.length === 0"></i>
+          <i
+          c8yIcon="times"
+          class="text-muted"
+          *ngIf="model && model.length > 0"
+          (click)="model = ''"
+        ></i>
+        </span>
+      
+      <div *ngIf="searching" style="color:blue;margin: 5px;"><i class="fa fa-circle-o-notch fa-spin"></i></div>
+    </div>
+    </form>
+  </div>
+  <!-- <div *ngIf="editData">
+    <b> Device: </b> {{editData.name}}
+  </div> -->
+</div>

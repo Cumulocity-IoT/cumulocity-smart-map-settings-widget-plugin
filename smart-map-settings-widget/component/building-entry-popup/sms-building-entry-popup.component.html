@@ -1,0 +1,39 @@
+
+ <div class="row">
+
+    <div class="col-sm-12 form-horizontal ltc-flex-col">
+        <div class="action-button-right ">
+            <label class="mb-2 ltc-title-label">Building Details</label>
+            <!-- <button class="gp-sms-moveright" mat-button color="primary" [disabled]="!isSaved" (click)="onEdit()"> 
+              <i class="fa fa-pencil-square-o"></i></button> -->
+            <button style="color:#1776BF;margin-right: 5px;font-size: 20px;" class="btn btn-clean" [disabled]="!buildingConfigForm.valid" (click)="onSave()">
+              <i c8yIcon="check"></i></button>
+        </div>
+      <div >
+          <form [formGroup]="buildingConfigForm" class="form-group-sm">
+            <div class="row col-sm-12 p-4">
+              <label for="buildingName" class="col-sm-4 control-label">Building Name: </label>
+              <div class="col-sm-8">
+                <input type="text" formControlName="buildingName" id="buildingName" class="form-control"
+                  placeholder="2A east">
+              </div>
+            </div>
+          <div class="row col-sm-12 p-4">
+             <label for="location" class="col-sm-4 control-label">Location:</label>
+              <div class="col-sm-8">
+                <input type="text" formControlName="location" id="location" class="form-control"
+                placeholder="Bengaluru" pattern="^[a-zA-Z ]*$">
+              </div>
+            </div>
+
+            <div class="row col-sm-12 p-4">
+            <label for="assetTypes" class="col-sm-4 control-label">Asset type:</label>
+              <div class="col-sm-8">
+                <input type="text" formControlName="assetTypes" id="assetTypes" class="form-control"
+                placeholder="Asset type" pattern="^[a-zA-Z ]*$">
+              </div>
+            </div>
+        </form>
+      </div>
+    </div>
+  </div>
