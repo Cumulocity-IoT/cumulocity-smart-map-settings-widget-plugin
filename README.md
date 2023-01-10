@@ -1,4 +1,4 @@
-# Smart Map Settings Widget Plugin [<img width="35" src="https://user-images.githubusercontent.com/67993842/97668428-f360cc80-1aa7-11eb-8801-da578bda4334.png"/>](https://github.com/SoftwareAG/cumulocity-smart-map-settings-widget-plugin/releases/download/1.0.0-beta/smartmap-settings-runtime-widget-1.0.0-beta.zip)
+# Smart Map Settings Widget Plugin [<img width="35" src="https://user-images.githubusercontent.com/32765455/211497905-561e9197-18b9-43d5-a023-071d3635f4eb.png"/>](https://github.com/SoftwareAG/cumulocity-smart-map-settings-widget-plugin/releases/download/1.0.0-beta/smartmap-settings-runtime-widget-1.0.0-beta.zip)
 
 This widget 'Smart map settings' is micro frontend plugin and can be deployed in App Builder and Cockpit as a Cumulocity widget. It allows you to mark and create a Geography on specified location. After the Geography is created, it allows to create floors, Geofences and device positioning. This widget is used as configuration for Smart Map widget
 
