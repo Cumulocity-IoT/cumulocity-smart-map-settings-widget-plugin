@@ -23,15 +23,15 @@
 }
 
 .leaflet-draw-toolbar a {
-	background-image: url('./../smartmap-settings-runtime-widget@1.0.0-beta/images/spritesheet.png');
-	background-image: linear-gradient(transparent, transparent), url('./../smartmap-settings-runtime-widget@1.0.0-beta/images/spritesheet.svg');
+	background-image: url('./../sag-ps-pkg-smartmap-settings@1.0.1/images/spritesheet.png') !important;
+	background-image: linear-gradient(transparent, transparent), url('./../sag-ps-pkg-smartmap-settings@1.0.1/images/spritesheet.svg') !important;
 	background-repeat: no-repeat;
 	background-size: 300px 30px;
 	background-clip: padding-box;
 }
 
 .leaflet-retina .leaflet-draw-toolbar a {
-	background-image: url('./../smartmap-settings-runtime-widget@1.0.0-beta/images/spritesheet-2x.png');
+	background-image: url('./../sag-ps-pkg-smartmap-settings@1.0.1/images/spritesheet-2x.png') !important;
 	background-image: linear-gradient(transparent, transparent), url('images/spritesheet.svg');
 }
 

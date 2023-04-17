@@ -8,9 +8,9 @@ function clean() {
     del(['dist']);
    
     return src(`node_modules/leaflet-draw/dist/leaflet.draw-src.css`)
-    .pipe(replace(/(\'images\/spritesheet.png)/, `'./../${pkgJson.c8y.application.contextPath}@${pkgJson.version}/images/spritesheet.png`))
-    .pipe(replace(/(\'images\/spritesheet-2x.png)/, `'./../${pkgJson.c8y.application.contextPath}@${pkgJson.version}/images/spritesheet-2x.png`))
-    .pipe(replace(/(\'images\/spritesheet.svg)/, `'./../${pkgJson.c8y.application.contextPath}@${pkgJson.version}/images/spritesheet.svg`))
+    .pipe(replace(/(\'images\/spritesheet.png\'\))/, `'./../${pkgJson.c8y.application.contextPath}@${pkgJson.version}/images/spritesheet.png') !important`))
+    .pipe(replace(/(\'images\/spritesheet-2x.png\'\))/, `'./../${pkgJson.c8y.application.contextPath}@${pkgJson.version}/images/spritesheet-2x.png') !important`))
+    .pipe(replace(/(\'images\/spritesheet.svg\'\))/, `'./../${pkgJson.c8y.application.contextPath}@${pkgJson.version}/images/spritesheet.svg') !important`))
     .pipe(dest(`smart-map-settings-widget/component/map-dialog/`));
 }
 const bundle = series(

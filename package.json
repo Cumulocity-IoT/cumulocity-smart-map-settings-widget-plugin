@@ -1,18 +1,21 @@
 {
   "name": "cumulocity-smart-map-settings-widget-plugin",
-  "version": "1.0.0-beta",
+  "version": "1.0.1",
   "description": "The Smart Map Setting widget help user to setup geography, indoor floor plan, svg images, GeoJSOn, Geofences for single/multiple floors. This will be used by Smart Map",
   "author": "Darpankumar Lalani - Software AG, Global Presales",
   "license": "Apache 2.0",
   "scripts": {
     "start": "c8ycli server ",
-    "build": "c8ycli build",
+    "build": "c8ycli build --env.mode=production",
     "deploy": "c8ycli deploy",
     "postinstall": "ngcc",
     "prebuild": " gulp clean",
     "postbuild": " gulp bundle"
   },
-  "keywords": [],
+  "keywords": [ 
+    "Cumulocity",
+    "Plugin",
+    "Widget"],
   "dependencies": {
     "@angular/animations": "14.0.6",
     "@angular/cdk": "14.1.2",
@@ -60,10 +63,10 @@
   },
   "c8y": {
     "application": {
-      "name": "Cumulocity Smart Map Settings Widget Plugin",
+      "name": "Cumulocity Smart Map Settings Widget",
       "description": "The is Smart Map Configuration widget",
-      "contextPath": "smartmap-settings-runtime-widget",
-      "key": "smartmap-settings-runtime-widget-application-key",
+      "contextPath": "sag-ps-pkg-smartmap-settings",
+      "key": "sag-ps-pkg-smartmap-settings-application-key",
       "globalTitle": "The is Smart Map Configuration widget",
       "tabsHorizontal": true,
       "isPackage": true,

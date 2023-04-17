@@ -64,7 +64,7 @@ import { ModalModule } from 'ngx-bootstrap/modal';
         id: 'smart-map-settings',
         label: 'Smart map settings',
         previewImage: preview.image,
-        description: 'Configuration of map',
+        description: 'Configuration for Smart Map',
         component: GPFloorPlanSettingsComponent,
         configComponent: GPFloorPlanSettingsConfigComponent,
         data: {
