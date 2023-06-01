@@ -8,7 +8,7 @@ This widget 'Smart map settings' is micro frontend plugin and can be deployed in
 |--------------------|------------|---------------------------|
 | 2.x.x(coming soon) | >= 1016.x.x| 1.x.x                     |  
 
-![](https://user-images.githubusercontent.com/32765455/94546270-465a2080-026b-11eb-87f0-f99b739931c0.png)
+![Images](Images/Smartmap-settings.PNG)
 
 ## What's new?
 *  **Smart Map Settings:** Smart Map Settings widget based on Angular 14. 
