@@ -8,6 +8,7 @@ This widget 'Smart map settings' is micro frontend plugin and can be deployed in
 |--------------------|------------|---------------------------|
 | 2.x.x(coming soon) | >= 1016.x.x| 1.x.x                     |  
 
+
 ![Images](Images/Smartmap-settings.PNG)
 
 ## What's new?
