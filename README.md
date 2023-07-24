@@ -6,7 +6,7 @@ This widget 'Smart map settings' is micro frontend plugin and can be deployed in
 
 |APPLICATION BUILDER | CUMULOCITY | SMART MAP SETTINGS WIDGET |
 |--------------------|------------|---------------------------|
-| 2.x.x(coming soon) | >= 1016.x.x| 1.x.x                     |  
+| 2.x.x		     | >= 1016.x.x| 1.x.x                     |  
 
 
 ![Smartmap-Settings](images/Smartmap-settings.PNG)
