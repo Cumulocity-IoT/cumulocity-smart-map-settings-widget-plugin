@@ -4,7 +4,7 @@ This widget 'Smart map settings' is micro frontend plugin and can be deployed in
 
 ### Please choose Smart Map Settings release based on Cumulocity/Application builder version:
 
-|APPLICATION BUILDER | CUMULOCITY | SMART MAP SETTINGS WIDGEt PLUGIN |
+|APPLICATION BUILDER | CUMULOCITY | SMART MAP SETTINGS WIDGET PLUGIN |
 |--------------------|------------|----------------------------------|
 | 2.x.x		     | >= 1016.x.x| 1.x.x                     	     |  
 
