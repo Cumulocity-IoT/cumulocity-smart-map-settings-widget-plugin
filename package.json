@@ -12,10 +12,11 @@
     "prebuild": " gulp clean",
     "postbuild": " gulp bundle"
   },
-  "keywords": [ 
+  "keywords": [
     "Cumulocity",
     "Plugin",
-    "Widget"],
+    "Widget"
+  ],
   "dependencies": {
     "@angular/animations": "14.0.6",
     "@angular/cdk": "14.1.2",
