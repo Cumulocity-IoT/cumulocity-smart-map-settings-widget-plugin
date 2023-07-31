@@ -1,15 +1,15 @@
-# Smart Map Settings Widget Plugin [<img width="35" src="https://user-images.githubusercontent.com/32765455/211497905-561e9197-18b9-43d5-a023-071d3635f4eb.png"/>](https://github.com/SoftwareAG/cumulocity-smart-map-settings-widget-plugin/releases/download/1.0.1/sag-ps-pkg-smartmap-settings-1.0.1.zip)
+# Smart Map Settings Widget Plugin [<img width="35" src="https://user-images.githubusercontent.com/32765455/211497905-561e9197-18b9-43d5-a023-071d3635f4eb.png"/>](https://github.com/SoftwareAG/cumulocity-smart-map-settings-widget-plugin/releases/download/1.0.2/sag-ps-pkg-smartmap-settings-1.0.2.zip)
 
 This widget 'Smart map settings' is micro frontend plugin and can be deployed in App Builder and Cockpit as a Cumulocity widget. It allows you to mark and create a Geography on specified location. After the Geography is created, it allows to create floors, Geofences and device positioning. This widget is used as configuration for Smart Map widget
 
 ### Please choose Smart Map Settings release based on Cumulocity/Application builder version:
 
-|APPLICATION BUILDER | CUMULOCITY | SMART MAP SETTINGS WIDGET PLUGIN |
-|--------------------|------------|----------------------------------|
-| 2.x.x		     | >= 1016.x.x| 1.x.x                     	     |  
+|APPLICATION BUILDER | CUMULOCITY | SMART MAP SETTINGS WIDGET |
+|--------------------|------------|---------------------------|
+| 2.x.x(coming soon) | >= 1016.x.x| 1.x.x                     |  
 
 
-![](https://user-images.githubusercontent.com/32765455/94546270-465a2080-026b-11eb-87f0-f99b739931c0.png)
+![Smartmap-Settings](images/Smartmap-settings.PNG)
 
 ## What's new?
 *  **Smart Map Settings:** Smart Map Settings widget based on Angular 14. 
@@ -36,7 +36,7 @@ This widget 'Smart map settings' is micro frontend plugin and can be deployed in
 
 ### Runtime Widget Deployment?
 
-* This widget support runtime deployment. Download [Runtime Binary](https://github.com/SoftwareAG/cumulocity-smart-map-settings-widget-plugin/releases/download/1.0.1/sag-ps-pkg-smartmap-settings-1.0.1.zip) and install via Administrations --> Ecosystems --> Applications --> Packages
+* This widget support runtime deployment. Download [Runtime Binary](https://github.com/SoftwareAG/cumulocity-smart-map-settings-widget-plugin/releases/download/1.0.2/sag-ps-pkg-smartmap-settings-1.0.2.zip) and install via Administrations --> Ecosystems --> Applications --> Packages
 
 
 ## QuickStart

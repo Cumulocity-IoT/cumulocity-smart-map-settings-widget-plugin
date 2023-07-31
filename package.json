@@ -1,6 +1,6 @@
 {
   "name": "cumulocity-smart-map-settings-widget-plugin",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "The Smart Map Setting widget help user to setup geography, indoor floor plan, svg images, GeoJSOn, Geofences for single/multiple floors. This will be used by Smart Map",
   "author": "Darpankumar Lalani - Software AG, Global Presales",
   "license": "Apache 2.0",
@@ -12,10 +12,11 @@
     "prebuild": " gulp clean",
     "postbuild": " gulp bundle"
   },
-  "keywords": [ 
+  "keywords": [
     "Cumulocity",
     "Plugin",
-    "Widget"],
+    "Widget"
+  ],
   "dependencies": {
     "@angular/animations": "14.0.6",
     "@angular/cdk": "14.1.2",
@@ -91,6 +92,14 @@
         {
           "from": "./node_modules/leaflet-draw/dist/images",
           "to": "./images/"
+        },
+        {
+          "from": "images/Smartmap-settings.PNG",
+          "to": "images/Smartmap-settings.PNG"
+        },
+        {
+          "from": "LICENSE",
+          "to": "LICENSE.txt"
         }
       ]
     },
